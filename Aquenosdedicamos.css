@@ -1,0 +1,143 @@
+body {
+    background-image: url(img/fondonegro.jpg);
+}
+
+/* MENU NAVEGACION */
+.NavMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 5px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+/* NEW CARDS */
+.news-cards {
+    background-image: url(/img/2848735.jpg);
+    background-size: 200%;
+    padding: 15px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px 0px;
+    border-radius: 6px;
+}
+
+.news-cards img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.news-cards h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.news-cards a {
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.news-cards a:hover {
+    text-decoration: overline;
+}
+
+/* CLAS BANNER ONE */
+.cards-banner-one {
+    box-shadow: 3px 3px 6px 6px rgba(0,0,0,0.50);
+    height: 400px;
+    background: url('./img/image-four.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-banner-one .content {
+    padding: 0 30px;
+    color: white;
+    text-align: center;
+}
+
+.cards-banner-one p {
+    font-size: 20px;
+    margin: 10px 0px;
+    height: 200px;
+}
+
+/* CARDS BANNER TWO */
+.cards-banner-two {
+    box-shadow: 3px 3px 6px 6px rgba(0,0,0,0.50);
+    height: 400px;
+    background: url('./img/image-three.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-banner-two .content {
+    padding: 0 30px;
+    color: white;
+    text-align: center;
+}
+
+.cards-banner-two p {
+    font-size: 20px;
+    margin: 10px 0px;
+    height: 200px;
+    color: aliceblue;
+}
+
+.cards-banner-two h2 {
+    font-size: 20px;
+    margin: 10px 0px;
+    color: aliceblue;
+}
+
+/* FOOTER LINKS */
+.footer-links {
+    background: gray;
+    color: darkgrey;
+    font-size: 14px
+}
